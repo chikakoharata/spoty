@@ -8,6 +8,8 @@
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="swiper/swiper.min.css">
+    <script src="swiper/swiper.min.js"></script>
   </head>
 
   <body>
@@ -15,7 +17,7 @@
       <div class="containar">
         <div class="header-main">
           <div class="logo">
-            <div class="logo-main"><img src="images/logo.svg"/></div>
+            <div class="logo-main">Spoty</div>
           </div>
           <nav>
             <ul>
@@ -26,5 +28,38 @@
         </div>
       </div>
     </header>
+    <section class="swiper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide01">
+            <div class="slide-contents">
+              <div class="slide-contents-title">
+                あなただけの1曲を。<br>
+              </div>
+              <div class="slide-contents-text">
+                世界中の楽曲をチェック。<br>
+                あの音楽が見つかる。<br>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide02">
+            <div class="slide-contents">
+              <div class="slide-contents-title">
+                音楽を共有しよう。<br>
+              </div>
+              <div class="slide-contents-text">
+                気に入った楽曲をSNSで簡単にシェアできます。<br>
+                シェアを通して新しい音楽と出会おう。<br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
   </body>
 </html>
