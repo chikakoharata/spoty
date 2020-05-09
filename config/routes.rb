@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'layouts/application'
+  root 'pages#index'
 end
