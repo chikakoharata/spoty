@@ -53,13 +53,13 @@ header ul {
   padding-right: 15px;
 }
 
-header li a {
+.navbar-link {
   color: #FFF;
   padding: 28px 17px;
   display: block;
 }
 
-header li a:hover {
+.navbar-link:hover {
   color: #009e45;
 }
 
@@ -260,4 +260,8 @@ footer i {
   .free-text {
     font-size: 20px;
   }
+}
+
+.signup-header {
+  padding: 1.5em 0;
 }
