@@ -1,0 +1,135 @@
+.signup-header {
+  padding: 1.5em 0;
+  background-color: black;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
+}
+
+.l-box-content {
+  margin: 0 auto;
+  max-width: 26.875em
+}
+
+.spoty-link {
+  width: 150px;
+  height: 59px;
+  display: block;
+  margin: 0 auto;
+  background-size: contain;
+}
+
+img {
+  width: 150px;
+  height: 59px;
+}
+
+.l-signup-body {
+  background-color: #ffffff;
+  border-top: 1px solid #dfe0e6;
+}
+
+.l-box-content {
+  margin: 0 auto;
+  max-width: 26.875em;
+}
+
+.center-text {
+  margin-bottom: 1em;
+  font-size: 18px;
+  text-align: center;
+}
+
+input {
+  height: 48px;
+  width: 100%;
+  padding: 0 .75em;
+  margin-bottom: 1em;
+  font-size: .9375em;
+}
+
+label,
+em {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.birthday-text {
+  margin: 0;
+  color:#919496;
+}
+
+.radio-control-inline {
+  display: inline-block;
+}
+
+#user_gender_male {
+  float: left;
+  width: auto;
+}
+
+#user_gender_female {
+  width: auto;
+}
+
+#user_gender_neutral {
+  width: auto;
+}
+
+.radio_button {
+  height: 0;
+  width: 0;
+}
+
+.actions {
+  display: inline-block;
+  width: 100%;
+  height:50px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #9ec34b;
+  font-size: 16px;
+  line-height: 52px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #9ec34b;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.actions:after{
+  width: 100%;
+  height: 0;
+  content:"";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background : #FFF;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transition: .2s;
+  z-index: -1;
+}
+.actions:hover{
+  color: #9ec34b;
+}
+.actions:hover:after{
+  height: 240%;
+  opacity: 1;
+}
+.actions:active:after{
+  height: 340%;
+  opacity: 1;
+}
